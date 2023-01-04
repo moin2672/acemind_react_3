@@ -7,6 +7,10 @@ import Wrapper from '../Helpers/Wrapper';
 import classes from './AddUser.module.css';
 
 const AddUser = (props) => {
+
+  // UNCONTROLLED INPUT COMPONENT : useRef()
+  // CONTROLLED INPUT COMPONENT: useState() 
+
   const nameInputRef = useRef();
   const ageInputRef = useRef();
 
